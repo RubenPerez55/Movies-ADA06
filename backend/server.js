@@ -2,6 +2,10 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
+const {
+  filterMovies,
+  calculateCatalogMetrics
+} = require('./services/movieService');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -27,31 +31,7 @@ try {
 // 1. Obtener todas las películas o filtrar por categoría, búsqueda o género
 app.get('/api/movies', (req, res) => {
   const { category, search, genre } = req.query;
-  let results = [...movies];
-
-  if (category) {
-    results = results.filter(movie => 
-      Array.isArray(movie.category) 
-        ? movie.category.includes(category) 
-        : movie.category === category
-    );
-  }
-
-  if (genre) {
-    const genreLower = genre.toLowerCase();
-    results = results.filter(movie =>
-      movie.genres && movie.genres.some(g => g.toLowerCase() === genreLower)
-    );
-  }
-
-  if (search) {
-    const query = search.toLowerCase().trim();
-    results = results.filter(movie =>
-      (movie.title && movie.title.toLowerCase().includes(query)) ||
-      (movie.original_title && movie.original_title.toLowerCase().includes(query)) ||
-      (movie.overview && movie.overview.toLowerCase().includes(query))
-    );
-  }
+  const results = filterMovies(movies, { category, search, genre });
 
   res.json({
     total_results: results.length,
@@ -92,7 +72,13 @@ app.get('/api/genres', (req, res) => {
   res.json(Array.from(genreSet).sort());
 });
 
-// 5. Endpoint de salud / estado
+// 5. Métricas y estadísticas del catálogo
+app.get('/api/metrics', (req, res) => {
+  const metrics = calculateCatalogMetrics(movies);
+  res.json(metrics);
+});
+
+// 6. Endpoint de salud / estado
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', service: 'TMDB Clone API', time: new Date().toISOString() });
 });
@@ -116,5 +102,8 @@ app.listen(PORT, () => {
   console.log(`🎬 TMDB Clone Server corriendo exitosamente!`);
   console.log(`🌐 Acceso Web: http://localhost:${PORT}`);
   console.log(`📡 API Movies: http://localhost:${PORT}/api/movies`);
+  console.log(`📊 API Metrics: http://localhost:${PORT}/api/metrics`);
   console.log(`===============================================`);
 });
+
+module.exports = app;

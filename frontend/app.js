@@ -3,7 +3,12 @@
  * Conexión con Backend REST API, renderizado dinámico y vistas de detalle
  */
 
-// Fallback de datos por si se abre sin servidor backend activo
+// Imágenes de respaldo seguras en formato SVG Data-URI (funcionan 100% offline y sin fallos)
+const FALLBACK_POSTER = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='450' viewBox='0 0 300 450'><rect width='100%' height='100%' fill='%23032541'/><rect x='15' y='15' width='270' height='420' rx='12' fill='none' stroke='%2301b4e4' stroke-width='2' stroke-dasharray='6,6'/><text x='50%' y='46%' fill='%2301b4e4' font-size='28' font-family='sans-serif' font-weight='900' text-anchor='middle'>TMDB</text><text x='50%' y='54%' fill='%23ffffff' font-size='14' font-family='sans-serif' opacity='0.85' text-anchor='middle'>Carátula de Película</text></svg>";
+
+const FALLBACK_ACTOR = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='185' height='240' viewBox='0 0 185 240'><rect width='100%' height='100%' fill='%230d253f'/><circle cx='92.5' cy='85' r='38' fill='%2301b4e4' opacity='0.75'/><ellipse cx='92.5' cy='185' rx='60' ry='42' fill='%2301b4e4' opacity='0.75'/></svg>";
+
+// Fallback de datos con URLs oficiales de TMDB verificadas
 const FALLBACK_MOVIES = [
   {
     id: 1,
@@ -17,13 +22,13 @@ const FALLBACK_MOVIES = [
     runtime: "2h 46m",
     certification: "+12",
     tagline: "Larga vida a los luchadores.",
-    poster_path: "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
-    backdrop_path: "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s520ffq.jpg",
+    poster_path: "https://media.themoviedb.org/t/p/w500/6o5cJjA4srfvU52UKWaqPUuPPgl.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w780/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
     trailer_key: "Way9Dexny3w",
     cast: [
       { name: "Timothée Chalamet", character: "Paul Atreides", photo: "https://image.tmdb.org/t/p/w185/BE2sdjpgsa2rNTFa66f7upkaOP.jpg" },
-      { name: "Zendaya", character: "Chani", photo: "https://image.tmdb.org/t/p/w185/r3A7ev7Qkjio0Ikn8ihqlud8ojr.jpg" },
-      { name: "Rebecca Ferguson", character: "Lady Jessica", photo: "https://image.tmdb.org/t/p/w185/6NRn5G6WGBn4eGjM2hQ7gC0r6bT.jpg" }
+      { name: "Zendaya", character: "Chani", photo: "https://ui-avatars.com/api/?name=Zendaya&background=032541&color=fff&size=200" },
+      { name: "Rebecca Ferguson", character: "Lady Jessica", photo: "https://ui-avatars.com/api/?name=Rebecca+Ferguson&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -38,12 +43,13 @@ const FALLBACK_MOVIES = [
     runtime: "1h 36m",
     certification: "TP",
     tagline: "Haz sitio para nuevas emociones.",
-    poster_path: "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-    backdrop_path: "https://image.tmdb.org/t/p/original/xg270uvQBgYQCrCprziGCwQGquA.jpg",
+    poster_path: "https://media.themoviedb.org/t/p/w500/4HEJdpcmTGm3BWWic31G4aCnuC6.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w780/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
     trailer_key: "LEjhY15eCx0",
     cast: [
-      { name: "Amy Poehler", character: "Alegría (voz)", photo: "https://image.tmdb.org/t/p/w185/kF24vHk4mB5tXlO1tY7c8p6a8x.jpg" },
-      { name: "Maya Hawke", character: "Ansiedad (voz)", photo: "https://image.tmdb.org/t/p/w185/7cK4K5lXyL6M2P4c5b6a7d8e.jpg" }
+      { name: "Amy Poehler", character: "Alegría (voz)", photo: "https://ui-avatars.com/api/?name=Amy+Poehler&background=032541&color=fff&size=200" },
+      { name: "Maya Hawke", character: "Ansiedad (voz)", photo: "https://ui-avatars.com/api/?name=Maya+Hawke&background=032541&color=fff&size=200" },
+      { name: "Phyllis Smith", character: "Tristeza (voz)", photo: "https://ui-avatars.com/api/?name=Phyllis+Smith&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -58,12 +64,13 @@ const FALLBACK_MOVIES = [
     runtime: "2h 08m",
     certification: "+18",
     tagline: "Juntos salvarán el multiverso... o no.",
-    poster_path: "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
-    backdrop_path: "https://image.tmdb.org/t/p/original/yDHYTjA3R0jFYba16jBB1jv8uaC.jpg",
+    poster_path: "https://media.themoviedb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w780/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
     trailer_key: "73_1biulkYk",
     cast: [
-      { name: "Ryan Reynolds", character: "Wade Wilson / Deadpool", photo: "https://image.tmdb.org/t/p/w185/4SYTH5FRAxwhdkmsqdQ2Vb42qq8.jpg" },
-      { name: "Hugh Jackman", character: "Logan / Wolverine", photo: "https://image.tmdb.org/t/p/w185/5XFp86x9B1g9yZ3p2n1c0d4e.jpg" }
+      { name: "Ryan Reynolds", character: "Wade Wilson / Deadpool", photo: "https://ui-avatars.com/api/?name=Ryan+Reynolds&background=032541&color=fff&size=200" },
+      { name: "Hugh Jackman", character: "Logan / Wolverine", photo: "https://ui-avatars.com/api/?name=Hugh+Jackman&background=032541&color=fff&size=200" },
+      { name: "Emma Corrin", character: "Cassandra Nova", photo: "https://ui-avatars.com/api/?name=Emma+Corrin&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -78,11 +85,12 @@ const FALLBACK_MOVIES = [
     runtime: "1h 42m",
     certification: "TP",
     tagline: "Descubre tu verdadera naturaleza.",
-    poster_path: "https://image.tmdb.org/t/p/w500/9w0Vh9Cuhehyddiq2TJqvGh0ZKT.jpg",
-    backdrop_path: "https://image.tmdb.org/t/p/original/417tYZ4umRJZScq05501h190vO.jpg",
+    poster_path: "https://media.themoviedb.org/t/p/w500/cYMihyFZreVBn8x6KnyPY4ea0HX.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w780/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
     trailer_key: "67vbA5ZJb28",
     cast: [
-      { name: "Lupita Nyong'o", character: "Roz (voz)", photo: "https://image.tmdb.org/t/p/w185/mOQyH6L3f8Z0j1Y2x3b4c5.jpg" }
+      { name: "Lupita Nyong'o", character: "Roz (voz)", photo: "https://ui-avatars.com/api/?name=Lupita+Nyong'o&background=032541&color=fff&size=200" },
+      { name: "Pedro Pascal", character: "Fink (voz)", photo: "https://ui-avatars.com/api/?name=Pedro+Pascal&background=032541&color=fff&size=200" }
     ]
   }
 ];
@@ -217,7 +225,7 @@ function createMovieCardHtml(movie) {
           alt="${escapeHtml(movie.title)}" 
           class="card-poster"
           loading="lazy"
-          onerror="this.src='https://via.placeholder.com/300x450?text=Sin+Imagen'"
+          onerror="this.onerror=null;this.src='${FALLBACK_POSTER}';"
         />
         <div class="score-badge" title="${percentage}% de aprobación">
           <svg viewBox="0 0 36 36">
@@ -346,7 +354,13 @@ function openMovieModal(movieId) {
         <div class="cast-grid">
           ${movie.cast.map(c => `
             <div class="cast-card">
-              <img src="${escapeHtml(c.photo)}" alt="${escapeHtml(c.name)}" class="cast-photo" onerror="this.src='https://via.placeholder.com/150x200?text=Actor'">
+              <img 
+                src="${escapeHtml(c.photo)}" 
+                alt="${escapeHtml(c.name)}" 
+                class="cast-photo" 
+                loading="lazy"
+                onerror="this.onerror=null;this.src='${FALLBACK_ACTOR}';"
+              />
               <div class="cast-details">
                 <div class="cast-name">${escapeHtml(c.name)}</div>
                 <div class="cast-character">${escapeHtml(c.character)}</div>
@@ -366,7 +380,7 @@ function openMovieModal(movieId) {
           src="${escapeHtml(movie.poster_path)}" 
           alt="${escapeHtml(movie.title)}" 
           class="modal-poster" 
-          onerror="this.src='https://via.placeholder.com/300x450?text=Sin+Imagen'"
+          onerror="this.onerror=null;this.src='${FALLBACK_POSTER}';"
         />
         
         <div class="modal-details">
@@ -505,7 +519,6 @@ function setupEventListeners() {
     item.addEventListener('click', (e) => {
       e.preventDefault();
       const cat = item.getAttribute('data-filter-cat');
-      // Desplazarse suavemente a la sección correspondiente
       const sec = document.getElementById(`section-${cat === 'top_rated' ? 'top-rated' : cat}`);
       if (sec) {
         if (clearBtn) clearBtn.click();

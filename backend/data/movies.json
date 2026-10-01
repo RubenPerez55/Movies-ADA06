@@ -12,15 +12,15 @@
     "runtime": "2h 46m",
     "certification": "+12",
     "tagline": "Larga vida a los luchadores.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s520ffq.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/6o5cJjA4srfvU52UKWaqPUuPPgl.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
     "trailer_key": "Way9Dexny3w",
     "director": "Denis Villeneuve",
     "cast": [
       { "name": "Timothée Chalamet", "character": "Paul Atreides", "photo": "https://image.tmdb.org/t/p/w185/BE2sdjpgsa2rNTFa66f7upkaOP.jpg" },
-      { "name": "Zendaya", "character": "Chani", "photo": "https://image.tmdb.org/t/p/w185/r3A7ev7Qkjio0Ikn8ihqlud8ojr.jpg" },
-      { "name": "Rebecca Ferguson", "character": "Lady Jessica", "photo": "https://image.tmdb.org/t/p/w185/6NRn5G6WGBn4eGjM2hQ7gC0r6bT.jpg" },
-      { "name": "Javier Bardem", "character": "Stilgar", "photo": "https://image.tmdb.org/t/p/w185/iO1k8R9z8R1f5f2a1b3c4d5e6f.jpg" }
+      { "name": "Zendaya", "character": "Chani", "photo": "https://ui-avatars.com/api/?name=Zendaya&background=032541&color=fff&size=200" },
+      { "name": "Rebecca Ferguson", "character": "Lady Jessica", "photo": "https://ui-avatars.com/api/?name=Rebecca+Ferguson&background=032541&color=fff&size=200" },
+      { "name": "Javier Bardem", "character": "Stilgar", "photo": "https://ui-avatars.com/api/?name=Javier+Bardem&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -36,14 +36,14 @@
     "runtime": "1h 36m",
     "certification": "TP",
     "tagline": "Haz sitio para nuevas emociones.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/xg270uvQBgYQCrCprziGCwQGquA.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/4HEJdpcmTGm3BWWic31G4aCnuC6.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
     "trailer_key": "LEjhY15eCx0",
     "director": "Kelsey Mann",
     "cast": [
-      { "name": "Amy Poehler", "character": "Alegría (voz)", "photo": "https://image.tmdb.org/t/p/w185/kF24vHk4mB5tXlO1tY7c8p6a8x.jpg" },
-      { "name": "Maya Hawke", "character": "Ansiedad (voz)", "photo": "https://image.tmdb.org/t/p/w185/7cK4K5lXyL6M2P4c5b6a7d8e.jpg" },
-      { "name": "Phyllis Smith", "character": "Tristeza (voz)", "photo": "https://image.tmdb.org/t/p/w185/a1B2c3D4e5F6g7H8i9J0k1L2.jpg" }
+      { "name": "Amy Poehler", "character": "Alegría (voz)", "photo": "https://ui-avatars.com/api/?name=Amy+Poehler&background=032541&color=fff&size=200" },
+      { "name": "Maya Hawke", "character": "Ansiedad (voz)", "photo": "https://ui-avatars.com/api/?name=Maya+Hawke&background=032541&color=fff&size=200" },
+      { "name": "Phyllis Smith", "character": "Tristeza (voz)", "photo": "https://ui-avatars.com/api/?name=Phyllis+Smith&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -59,14 +59,14 @@
     "runtime": "2h 08m",
     "certification": "+18",
     "tagline": "Juntos salvarán el multiverso... o no.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/yDHYTjA3R0jFYba16jBB1jv8uaC.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
     "trailer_key": "73_1biulkYk",
     "director": "Shawn Levy",
     "cast": [
-      { "name": "Ryan Reynolds", "character": "Wade Wilson / Deadpool", "photo": "https://image.tmdb.org/t/p/w185/4SYTH5FRAxwhdkmsqdQ2Vb42qq8.jpg" },
-      { "name": "Hugh Jackman", "character": "Logan / Wolverine", "photo": "https://image.tmdb.org/t/p/w185/5XFp86x9B1g9yZ3p2n1c0d4e.jpg" },
-      { "name": "Emma Corrin", "character": "Cassandra Nova", "photo": "https://image.tmdb.org/t/p/w185/9a8b7c6d5e4f3a2b1c0d.jpg" }
+      { "name": "Ryan Reynolds", "character": "Wade Wilson / Deadpool", "photo": "https://ui-avatars.com/api/?name=Ryan+Reynolds&background=032541&color=fff&size=200" },
+      { "name": "Hugh Jackman", "character": "Logan / Wolverine", "photo": "https://ui-avatars.com/api/?name=Hugh+Jackman&background=032541&color=fff&size=200" },
+      { "name": "Emma Corrin", "character": "Cassandra Nova", "photo": "https://ui-avatars.com/api/?name=Emma+Corrin&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -82,13 +82,13 @@
     "runtime": "1h 42m",
     "certification": "TP",
     "tagline": "Descubre tu verdadera naturaleza.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9w0Vh9Cuhehyddiq2TJqvGh0ZKT.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/417tYZ4umRJZScq05501h190vO.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/cYMihyFZreVBn8x6KnyPY4ea0HX.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
     "trailer_key": "67vbA5ZJb28",
     "director": "Chris Sanders",
     "cast": [
-      { "name": "Lupita Nyong'o", "character": "Roz (voz)", "photo": "https://image.tmdb.org/t/p/w185/mOQyH6L3f8Z0j1Y2x3b4c5.jpg" },
-      { "name": "Pedro Pascal", "character": "Fink (voz)", "photo": "https://image.tmdb.org/t/p/w185/9b8a7c6d5e4f3a2b1c0.jpg" }
+      { "name": "Lupita Nyong'o", "character": "Roz (voz)", "photo": "https://ui-avatars.com/api/?name=Lupita+Nyong'o&background=032541&color=fff&size=200" },
+      { "name": "Pedro Pascal", "character": "Fink (voz)", "photo": "https://ui-avatars.com/api/?name=Pedro+Pascal&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -104,14 +104,14 @@
     "runtime": "2h 28m",
     "certification": "+16",
     "tagline": "Lo que hacemos en la vida tiene su eco en la eternidad.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/euYIwmwkmz95mnExvufCducK5nR.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/fbcs5AxrdXwyj1b8bGGMgC9kXrM.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg",
     "trailer_key": "4rgYUipGJNo",
     "director": "Ridley Scott",
     "cast": [
-      { "name": "Paul Mescal", "character": "Lucio Vero", "photo": "https://image.tmdb.org/t/p/w185/2c3d4e5f6g7h8i9j0k.jpg" },
-      { "name": "Pedro Pascal", "character": "Marco Acacio", "photo": "https://image.tmdb.org/t/p/w185/9b8a7c6d5e4f3a2b1c0.jpg" },
-      { "name": "Denzel Washington", "character": "Macrinus", "photo": "https://image.tmdb.org/t/p/w185/4c5b6a7d8e9f0a1b2c.jpg" }
+      { "name": "Paul Mescal", "character": "Lucio Vero", "photo": "https://ui-avatars.com/api/?name=Paul+Mescal&background=032541&color=fff&size=200" },
+      { "name": "Pedro Pascal", "character": "Marco Acacio", "photo": "https://ui-avatars.com/api/?name=Pedro+Pascal&background=032541&color=fff&size=200" },
+      { "name": "Denzel Washington", "character": "Macrinus", "photo": "https://ui-avatars.com/api/?name=Denzel+Washington&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -127,14 +127,14 @@
     "runtime": "3h 00m",
     "certification": "+16",
     "tagline": "El mundo cambiará para siempre.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/nb3xI8XI3xy49qVs283Z5nnCioG.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/mJRUREPjTqqMEKwEiM2sdmIGngz.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
     "trailer_key": "mvST3X_y98M",
     "director": "Christopher Nolan",
     "cast": [
-      { "name": "Cillian Murphy", "character": "J. Robert Oppenheimer", "photo": "https://image.tmdb.org/t/p/w185/3D5rL2p7s6T0Y1X2.jpg" },
-      { "name": "Emily Blunt", "character": "Katherine 'Kitty' Oppenheimer", "photo": "https://image.tmdb.org/t/p/w185/4E6r5tY7u8I9.jpg" },
-      { "name": "Robert Downey Jr.", "character": "Lewis Strauss", "photo": "https://image.tmdb.org/t/p/w185/5F7y8u9I0O1p.jpg" }
+      { "name": "Cillian Murphy", "character": "J. Robert Oppenheimer", "photo": "https://ui-avatars.com/api/?name=Cillian+Murphy&background=032541&color=fff&size=200" },
+      { "name": "Emily Blunt", "character": "Katherine 'Kitty' Oppenheimer", "photo": "https://ui-avatars.com/api/?name=Emily+Blunt&background=032541&color=fff&size=200" },
+      { "name": "Robert Downey Jr.", "character": "Lewis Strauss", "photo": "https://ui-avatars.com/api/?name=Robert+Downey+Jr&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -150,13 +150,13 @@
     "runtime": "2h 20m",
     "certification": "+7",
     "tagline": "No se trata de salvar un mundo, sino de salvarlos todos.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/rXhgHQmtjTIQOEDU8E2TbUFMjWM.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
     "trailer_key": "cqGjhVJWtEg",
     "director": "Joaquim Dos Santos, Kemp Powers",
     "cast": [
-      { "name": "Shameik Moore", "character": "Miles Morales (voz)", "photo": "https://image.tmdb.org/t/p/w185/6k7l8m9n0o1p.jpg" },
-      { "name": "Hailee Steinfeld", "character": "Gwen Stacy (voz)", "photo": "https://image.tmdb.org/t/p/w185/7l8m9n0o1p2q.jpg" }
+      { "name": "Shameik Moore", "character": "Miles Morales (voz)", "photo": "https://ui-avatars.com/api/?name=Shameik+Moore&background=032541&color=fff&size=200" },
+      { "name": "Hailee Steinfeld", "character": "Gwen Stacy (voz)", "photo": "https://ui-avatars.com/api/?name=Hailee+Steinfeld&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -172,14 +172,14 @@
     "runtime": "2h 49m",
     "certification": "+12",
     "tagline": "El fin de la Tierra no será nuestro fin.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/rAiYTrKGqDCRIIqo664sY9XZIvQ.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/cQuuBjG78j4b2r1dFpAjnjbUplv.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
     "trailer_key": "zSWdZVtXT7E",
     "director": "Christopher Nolan",
     "cast": [
-      { "name": "Matthew McConaughey", "character": "Cooper", "photo": "https://image.tmdb.org/t/p/w185/8m9n0o1p2q3r.jpg" },
-      { "name": "Anne Hathaway", "character": "Brand", "photo": "https://image.tmdb.org/t/p/w185/9n0o1p2q3r4s.jpg" },
-      { "name": "Jessica Chastain", "character": "Murph", "photo": "https://image.tmdb.org/t/p/w185/0o1p2q3r4s5t.jpg" }
+      { "name": "Matthew McConaughey", "character": "Cooper", "photo": "https://ui-avatars.com/api/?name=Matthew+McConaughey&background=032541&color=fff&size=200" },
+      { "name": "Anne Hathaway", "character": "Brand", "photo": "https://ui-avatars.com/api/?name=Anne+Hathaway&background=032541&color=fff&size=200" },
+      { "name": "Jessica Chastain", "character": "Murph", "photo": "https://ui-avatars.com/api/?name=Jessica+Chastain&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -195,13 +195,13 @@
     "runtime": "2h 32m",
     "certification": "+16",
     "tagline": "Por qué tan serio?",
-    "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/vLFCrzI3V4kbze877tP1H7TqppL.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
     "trailer_key": "EXeTwQWrcwY",
     "director": "Christopher Nolan",
     "cast": [
-      { "name": "Christian Bale", "character": "Bruce Wayne / Batman", "photo": "https://image.tmdb.org/t/p/w185/1p2q3r4s5t6u.jpg" },
-      { "name": "Heath Ledger", "character": "Joker", "photo": "https://image.tmdb.org/t/p/w185/2q3r4s5t6u7v.jpg" }
+      { "name": "Christian Bale", "character": "Bruce Wayne / Batman", "photo": "https://ui-avatars.com/api/?name=Christian+Bale&background=032541&color=fff&size=200" },
+      { "name": "Heath Ledger", "character": "Joker", "photo": "https://ui-avatars.com/api/?name=Heath+Ledger&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -217,13 +217,13 @@
     "runtime": "1h 59m",
     "certification": "+16",
     "tagline": "En el espacio nadie puede oír tus gritos.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/b33nnKl12vfwh492HNda4nevm4n.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/9SSEUrSqhljBMzRe4aBTh17rUaC.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/iYqSQaWDttQIQzsxg9xHyg0bttG.jpg",
     "trailer_key": "x0XDEhP4MQs",
     "director": "Fede Álvarez",
     "cast": [
-      { "name": "Cailee Spaeny", "character": "Rain Carradine", "photo": "https://image.tmdb.org/t/p/w185/3r4s5t6u7v8w.jpg" },
-      { "name": "David Jonsson", "character": "Andy", "photo": "https://image.tmdb.org/t/p/w185/4s5t6u7v8w9x.jpg" }
+      { "name": "Cailee Spaeny", "character": "Rain Carradine", "photo": "https://ui-avatars.com/api/?name=Cailee+Spaeny&background=032541&color=fff&size=200" },
+      { "name": "David Jonsson", "character": "Andy", "photo": "https://ui-avatars.com/api/?name=David+Jonsson&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -239,13 +239,13 @@
     "runtime": "1h 40m",
     "certification": "TP",
     "tagline": "El océano llama una vez más.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/yh64qw9mg9URqqU9vqiAw9uqIV1.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/tElnmtQ6yz1PjN1kePNl8yMSb59.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/mLAGAFUrRw9pphjnbnhtG1hASSN.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/vYqt6kb4lcF8wwqsMMaULkP9OEn.jpg",
     "trailer_key": "hDZ7y8RP5HE",
     "director": "David G. Derrick Jr.",
     "cast": [
-      { "name": "Auli'i Cravalho", "character": "Moana (voz)", "photo": "https://image.tmdb.org/t/p/w185/5t6u7v8w9x0y.jpg" },
-      { "name": "Dwayne Johnson", "character": "Maui (voz)", "photo": "https://image.tmdb.org/t/p/w185/6u7v8w9x0y1z.jpg" }
+      { "name": "Auli'i Cravalho", "character": "Moana (voz)", "photo": "https://ui-avatars.com/api/?name=Auli'i+Cravalho&background=032541&color=fff&size=200" },
+      { "name": "Dwayne Johnson", "character": "Maui (voz)", "photo": "https://ui-avatars.com/api/?name=Dwayne+Johnson&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -261,13 +261,13 @@
     "runtime": "1h 34m",
     "certification": "TP",
     "tagline": "Patea como nunca antes.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/1XDDXPXGiI8id7MrUxK26VI48ue.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/7JspmokDnpm8SEg28wtstfGps0K.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/3ffPx9jqg0yj9y1KWeagT7D20CB.jpg",
     "trailer_key": "_inKs4eeHiI",
     "director": "Mike Mitchell",
     "cast": [
-      { "name": "Jack Black", "character": "Po (voz)", "photo": "https://image.tmdb.org/t/p/w185/7v8w9x0y1z2a.jpg" },
-      { "name": "Awkwafina", "character": "Zhen (voz)", "photo": "https://image.tmdb.org/t/p/w185/8w9x0y1z2a3b.jpg" }
+      { "name": "Jack Black", "character": "Po (voz)", "photo": "https://ui-avatars.com/api/?name=Jack+Black&background=032541&color=fff&size=200" },
+      { "name": "Awkwafina", "character": "Zhen (voz)", "photo": "https://ui-avatars.com/api/?name=Awkwafina&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -283,13 +283,13 @@
     "runtime": "2h 22m",
     "certification": "+16",
     "tagline": "El miedo puede mantenerte prisionero. La esperanza puede liberarte.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/l6V3TEoJlGh3ztAFxK2hemHfDJ2.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
     "trailer_key": "PLl99DlL6b4",
     "director": "Frank Darabont",
     "cast": [
-      { "name": "Tim Robbins", "character": "Andy Dufresne", "photo": "https://image.tmdb.org/t/p/w185/9x0y1z2a3b4c.jpg" },
-      { "name": "Morgan Freeman", "character": "Ellis Boyd 'Red' Redding", "photo": "https://image.tmdb.org/t/p/w185/0y1z2a3b4c5d.jpg" }
+      { "name": "Tim Robbins", "character": "Andy Dufresne", "photo": "https://ui-avatars.com/api/?name=Tim+Robbins&background=032541&color=fff&size=200" },
+      { "name": "Morgan Freeman", "character": "Ellis Boyd 'Red' Redding", "photo": "https://ui-avatars.com/api/?name=Morgan+Freeman&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -305,13 +305,13 @@
     "runtime": "2h 55m",
     "certification": "+18",
     "tagline": "Una oferta que no podrás rechazar.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/ApiEfzSkrqS4m1L5a2GwWXzIiAs.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
     "trailer_key": "UaVTIH8mujA",
     "director": "Francis Ford Coppola",
     "cast": [
-      { "name": "Marlon Brando", "character": "Don Vito Corleone", "photo": "https://image.tmdb.org/t/p/w185/1z2a3b4c5d6e.jpg" },
-      { "name": "Al Pacino", "character": "Michael Corleone", "photo": "https://image.tmdb.org/t/p/w185/2a3b4c5d6e7f.jpg" }
+      { "name": "Marlon Brando", "character": "Don Vito Corleone", "photo": "https://ui-avatars.com/api/?name=Marlon+Brando&background=032541&color=fff&size=200" },
+      { "name": "Al Pacino", "character": "Michael Corleone", "photo": "https://ui-avatars.com/api/?name=Al+Pacino&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -327,14 +327,14 @@
     "runtime": "3h 12m",
     "certification": "+12",
     "tagline": "El agua conecta todas las cosas.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/s16H6tpK2utvwDtzZ8Qy4qm5Emw.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/oIVSTKNyKvjm4NmmJi4zjQqHJ02.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg",
     "trailer_key": "d9MyW72ELq0",
     "director": "James Cameron",
     "cast": [
-      { "name": "Sam Worthington", "character": "Jake Sully", "photo": "https://image.tmdb.org/t/p/w185/3b4c5d6e7f8g.jpg" },
-      { "name": "Zoe Saldaña", "character": "Neytiri", "photo": "https://image.tmdb.org/t/p/w185/4c5d6e7f8g9h.jpg" },
-      { "name": "Sigourney Weaver", "character": "Kiri", "photo": "https://image.tmdb.org/t/p/w185/5d6e7f8g9h0i.jpg" }
+      { "name": "Sam Worthington", "character": "Jake Sully", "photo": "https://ui-avatars.com/api/?name=Sam+Worthington&background=032541&color=fff&size=200" },
+      { "name": "Zoe Saldaña", "character": "Neytiri", "photo": "https://ui-avatars.com/api/?name=Zoe+Saldana&background=032541&color=fff&size=200" },
+      { "name": "Sigourney Weaver", "character": "Kiri", "photo": "https://ui-avatars.com/api/?name=Sigourney+Weaver&background=032541&color=fff&size=200" }
     ]
   },
   {
@@ -350,13 +350,13 @@
     "runtime": "2h 18m",
     "certification": "+16",
     "tagline": "El mundo es un escenario.",
-    "poster_path": "https://image.tmdb.org/t/p/w500/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg",
-    "backdrop_path": "https://image.tmdb.org/t/p/original/uGmYoGIkud943iomG9b17q9B91i.jpg",
+    "poster_path": "https://media.themoviedb.org/t/p/w500/fCQyAQ2K1N1RM5n79ZyCLRSgZuz.jpg",
+    "backdrop_path": "https://media.themoviedb.org/t/p/w780/AVWlQpVhpudyFsSh3OQIieHHYf.jpg",
     "trailer_key": "_OKAwz2NiJs",
     "director": "Todd Phillips",
     "cast": [
-      { "name": "Joaquin Phoenix", "character": "Arthur Fleck / Joker", "photo": "https://image.tmdb.org/t/p/w185/6e7f8g9h0i1j.jpg" },
-      { "name": "Lady Gaga", "character": "Harleen 'Lee' Quinzel", "photo": "https://image.tmdb.org/t/p/w185/7f8g9h0i1j2k.jpg" }
+      { "name": "Joaquin Phoenix", "character": "Arthur Fleck / Joker", "photo": "https://ui-avatars.com/api/?name=Joaquin+Phoenix&background=032541&color=fff&size=200" },
+      { "name": "Lady Gaga", "character": "Harleen 'Lee' Quinzel", "photo": "https://ui-avatars.com/api/?name=Lady+Gaga&background=032541&color=fff&size=200" }
     ]
   }
 ]
