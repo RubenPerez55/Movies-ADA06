@@ -7,7 +7,8 @@
     "start": "node backend/server.js",
     "dev": "node backend/server.js",
     "backend": "npm --prefix backend start",
-    "install:all": "npm --prefix backend install"
+    "install:all": "npm --prefix backend install",
+    "postinstall": "npm --prefix backend install"
   },
   "keywords": ["tmdb", "movies", "express", "api", "vanilla-js"],
   "author": "Ruben Perez",
