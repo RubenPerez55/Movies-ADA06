@@ -29,7 +29,6 @@ Este proyecto implementa las vistas principales de TMDB para exploración y cons
 
 ```text
 Movies-ADA06/
-├── AI_USAGE_LOG.md               # Registro de uso de Inteligencia Artificial (plantilla requerida)
 ├── README.md                     # Documentación del proyecto
 ├── .gitignore                    # Reglas de exclusión para dependencias y temporales
 ├── package.json                  # Configuración y scripts raíz (start, dev, test)
@@ -112,28 +111,3 @@ npm test
 | `GET` | `/api/categories` | Lista de categorías disponibles | Ninguno |
 | `GET` | `/api/genres` | Lista de todos los géneros únicos | Ninguno |
 | `GET` | `/api/health` | Estado de salud del servicio | Ninguno |
-
----
-
-## 🔑 Prerrequisito: Fine-grained Personal Access Token (Solo Lectura)
-
-Para dar acceso de solo lectura al evaluador/profesor sobre este repositorio mediante un **Fine-grained Personal Access Token**:
-
-1. En GitHub, ve a **Settings** → **Developer Settings** → **Personal Access Tokens** → **Fine-grained tokens**.
-2. Haz clic en **Generate new token**.
-3. Configura:
-   - **Token name**: `Evaluacion-Movies-ADA06`
-   - **Expiration**: Según la duración del curso (ej. 30 o 60 días).
-   - **Repository access**: Selecciona **Only select repositories** y elige `RubenPerez55/Movies-ADA06`.
-   - **Permissions** → **Repository permissions**:
-     - *Contents*: `Read-only`
-     - *Issues*: `Read-only`
-     - *Pull requests*: `Read-only`
-     - *Metadata*: `Read-only` (asignado automáticamente)
-4. Haz clic en **Generate token** y copia el token para entregarlo al profesor.
-
----
-
-## 📝 Registro de IA
-
-El archivo `AI_USAGE_LOG.md` se encuentra disponible en la raíz del repositorio listo para ser completado durante el desarrollo de las tareas correspondientes.
